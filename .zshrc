@@ -1,4 +1,5 @@
-PROMPT="%~ $ "
+PROMPT="%M %~ %# "                                                                                                                                                       Not Committed Yet
+PROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}] '$PROMPT
 #GO
 export GOPATH=$HOME/go
 export GOROOT="$(brew --prefix golang)/libexec"
